@@ -1,0 +1,13 @@
+function upDate(previewPic){
+  document.getElementById('image').style.backgroundImage = "url(" + previewPic.src + ")";
+ document.getElementById('image').innerHTML = previewPic.alt;
+}
+    
+   /* 2) Change the text  of the div with the id = "image"
+    to the alt text of the preview image
+    */
+
+    function unDo(){
+    document.getElementById("image").innerHTML = "Hover over an image";
+    document.getElementById('image').style.backgroundImage = "url('')";
+  }

@@ -1,0 +1,1 @@
+Write a few lines of JavaScript code that will show name and the large/zoomed version of that picture in the square above when hovered over
